@@ -1,0 +1,62 @@
+.admin-faces-btn {
+  background-color: #21387f;
+  border-color: #3a82c1;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 8px 16px;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+  margin: 6px;
+}
+
+.admin-faces-btn:hover {
+  background-color: #3a82c1;
+  border-color: #2e6eab;
+}
+
+.admin-faces-btn:focus {
+  background-color: #2e6eab;
+  border-color: #2e6eab;
+  box-shadow: 0 0 0 0.2rem rgba(62, 142, 215, 0.5);
+}
+
+.admin-faces-btn:active {
+  background-color: #1c235a;
+  border-color: #225175;
+}
+
+.table-responsive {
+  overflow-x: auto;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  list-style: none;
+  margin: 5px;
+}
+
+.pagination__link {
+  background-color: #1c235a;
+  border-color: #3a82c1;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 8px 16px;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+  margin: 6px;
+  cursor: pointer;
+}
+
+.pagination__link--active {
+  background-color: #007bff;
+  color: white;
+}
+
+.pagination__link--disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}

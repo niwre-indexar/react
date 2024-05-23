@@ -1,0 +1,49 @@
+.ant-picker-time-panel-column {
+  padding: 0px;
+}
+
+.modal {
+  background: none !important;
+}
+
+.admin-faces-btn {
+  background-color: #1c235a;
+  border-color: #3a82c1;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+.ant-btn-primary {
+  background-color: #1c235a;
+  border-color: #3a82c1;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+.admin-faces-btn:hover {
+  background-color: #3a82c1;
+  border-color: #2e6eab;
+}
+
+.admin-faces-btn:focus {
+  background-color: #2e6eab;
+  border-color: #2e6eab;
+  box-shadow: 0 0 0 0.2rem rgba(62, 142, 215, 0.5);
+}
+
+.admin-faces-btn:active {
+  background-color: #1c235a;
+  border-color: #225175;
+}
+
+.container-buscar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

@@ -1,0 +1,22 @@
+/* styles.css */
+
+.btn-accion {
+  background-color: #21387f;
+  border-color: #3a82c1;
+  color: #fff; /* Texto blanco */
+  font-size: 14px;
+  font-weight: 400;
+  border-radius: 4px;
+  width: 100%; /* Ancho completo */
+  text-align: left; /* Alineación del texto a la izquierda */
+  display: block; /* Asegura que se comporten como bloques */
+  transition: all 0.3s ease;
+  margin: 6px;
+}
+
+.btn-accion:hover {
+  background-color: rgba(14, 23, 67, 0.8); /* Cambia el color al hacer hover */
+}
+.ant-dropdown-menu {
+  padding: 30px;
+}

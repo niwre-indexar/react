@@ -1,0 +1,12 @@
+.btn-login{
+    display: grid;
+    gap: 10px;
+ 
+}
+ 
+.btnLogin{
+    background: rgb(28,35,90);
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+}

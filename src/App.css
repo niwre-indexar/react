@@ -1,0 +1,125 @@
+.App {
+  text-align: center;
+  
+  }
+  
+  .content-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 100%;
+    transition: all 0.5s ease;
+  }
+  
+  .content-header.open {
+    width: calc(100% - 16.5%);
+  }
+  /** Aqui css test menu desplegable*/
+  
+  .content-main {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    align-items: flex-start;
+    transition: all 0.5s ease;
+    min-height: 80vh;
+    
+  }
+  
+  .content {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    transition: all 0.5s ease;
+  }
+  
+  
+  .red {
+    background-color: white;
+  }
+  
+  .right{
+    margin-left: 10px;
+  }
+  
+      .open .red.move-left {
+        transform: translateX(-300%);
+      }
+    
+      .open .blue.expand {
+        flex-grow: 1;
+      }
+    
+      .default-small {
+        /* Tamaño por defecto para los contenedores hijos */
+        width: 250px;
+      }
+  
+      .default-big {
+        /* Tamaño por defecto para los contenedores hijos */
+        width: 90%;
+      }
+    
+      .small {
+        /* Tamaño pequeño para el contenedor rojo */
+        width: 5%;
+      }
+    
+      .big {
+        /* Tamaño grande para el contenedor azul */
+        width: 100%;
+    }
+    
+      
+      
+          /** media query */
+  @media only screen and (max-width: 768px) {
+    .App {
+      text-align: left; /* Cambia el texto a la izquierda para ocupar más espacio */
+    }
+  
+    .content-header {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .content-header.open {
+      width: 100%;
+    }
+  
+    .content-main,
+    .content {
+      flex-direction: column; /* Cambia la dirección del flexbox a columna para apilar elementos */
+      justify-content: center; /* Centra verticalmente */
+      align-items: center; /* Centra horizontalmente */
+      overflow: hidden;
+    }
+  
+    .right{
+    margin-left: 0px;
+  }
+  
+    .sidebar {
+      width: 100%; /* Ancho completo en pantallas más pequeñas */
+      height: auto; /* Altura automática para mostrar todos los íconos */
+      flex-direction: row; /* Cambia la dirección del flexbox para alinear los íconos horizontalmente */
+      justify-content: space-around; /* Espacio entre los íconos */
+      position: static; /* Cambia la posición a estática para que se muestre correctamente en el flujo del documento */
+    }
+  
+    .icon {
+      padding: 5px;
+    }
+  
+    .default-small,
+    .default-big {
+      width: 100%;
+    }
+  
+      .small,
+    .big {
+      width: 100%;
+    }
+  }
